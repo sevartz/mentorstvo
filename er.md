@@ -3,6 +3,7 @@
 
     user["User
     id: uuid/int
+    nickname: str
     email: string (unique)
     password_hash: string
     avatar:string
