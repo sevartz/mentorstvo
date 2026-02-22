@@ -1,8 +1,9 @@
-```mermaid
+ ```mermaid
     flowchart LR
 
     user["User
     id: uuid/int
+    login/nickname:str
     email: string (unique)
     password_hash: string
     avatar:string
