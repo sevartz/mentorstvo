@@ -58,7 +58,7 @@
     channel --- channelPosts
     user --- channelPosts
 
-    ```
+```
 
 
 ## Comments
