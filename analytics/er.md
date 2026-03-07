@@ -6,14 +6,15 @@
     nickname: str
     email: string (unique)
     description:string
-    created:datetime"]
+    created: datetime
+    "]
 
     message["Msg
     id: uuid v7
     sender_id: uuid v7
     receiver_id: uuid v7
-    text_msg(encrypted):text
-    created:datetime
+    text_msg(encrypted): text
+    created: datetime
     "]
 
     user --- message
